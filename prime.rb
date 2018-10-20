@@ -7,5 +7,6 @@ def prime? (num)
     for value in 1..num
       return false if num % value == 0
     end
+  end
     true
 end
